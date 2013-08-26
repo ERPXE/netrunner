@@ -1,0 +1,14 @@
+MENU BEGIN NETRUNNERMENU
+MENU LABEL ^NetRunner 4.1
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/netrunner/netrunner.png
+
+MENU INCLUDE er/plugins/netrunner/i386/netrunnermain.menu
+MENU INCLUDE er/plugins/netrunner/x86_64/netrunnermain.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

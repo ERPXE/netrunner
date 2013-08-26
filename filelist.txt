@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+netrunner.menu
+netrunner.png
+x86_64
+
+./i386:
+initrd.lz
+netrunnermain.menu
+vmlinuz
+
+./x86_64:
+initrd.lz
+netrunnermain.menu
+vmlinuz
